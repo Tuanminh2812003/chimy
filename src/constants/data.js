@@ -99,7 +99,7 @@ const diSanVatThe = [
     {
         id: 2,
         url: images.dsvt2,
-        web: "/trove"
+        web: "/tacphamtrove"
     },
     {
         id: 3,

@@ -32,7 +32,7 @@ function Section4() {
     return (
         <div className="Section4">
             <div className="Section4__title">
-                TRỞ VỀ
+                TÁC PHẨM TRỞ VỀ
             </div>
             <div className="Section4__slider">
                 {slides.map((slide, index) => (

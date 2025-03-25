@@ -46,7 +46,7 @@ function App() {
         <Route path='/congchiengtaynguyen' element={<KGVHCC/>}/>
         <Route path='/banducnoitrencuudinhtaihue' element={<BDN/>}/>
         <Route path='/phongnhakebang' element={<VQG/>}/>
-        <Route path='/trove' element={<TDMS/>}/>
+        <Route path='/tacphamtrove' element={<TDMS/>}/>
         <Route path='/hatxoan' element={<HX/>}/>
         <Route path='/tinnguongthocunghungvuong' element={<TNTCHV/>}/>
         <Route path='/chaubantrieunguyen' element={<CBTN/>}/>
