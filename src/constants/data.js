@@ -58,7 +58,7 @@ const diSanThienNhien = [
     {
         id: 3,
         url: images.dstn3,
-        web: "/phongnhakebang"
+        web: "/covatbinhphaplam"
     },
 ]
 
