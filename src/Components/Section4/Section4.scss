@@ -61,11 +61,13 @@ $brownMode-Question-color: #C16746;
     
         &__image {
             height: 100%;
-            width: 100%;
+            min-width: 100%;
             flex-shrink: 0;
             transition: transform 0.5s ease-in-out;
-            background-size: cover;
+            background-size: contain;
             background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
         }
     }
     .Section4__pagi {
@@ -166,8 +168,10 @@ $brownMode-Question-color: #C16746;
             min-width: 100%;
             flex-shrink: 0;
             transition: transform 0.5s ease-in-out;
-            background-size: cover;
+            background-size: contain;
             background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
         }
     }
     .Section4__pagi {
@@ -372,8 +376,10 @@ $brownMode-Question-color: #C16746;
             min-width: 100%;
             flex-shrink: 0;
             transition: transform 0.5s ease-in-out;
-            background-size: cover;
+            background-size: contain;
             background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
         }
     }
     .Section4__pagi {
@@ -445,6 +451,15 @@ $brownMode-Question-color: #C16746;
     
 }
 
+@media (max-width: 1300.98px){
+    .Section4__next{
+        top: 380px !important;
+    }
+    .Section4__prev{
+        top: 380px !important;
+    }
+}
+
 @media (max-width: 661.98px){
     .Section4__slider{
         height: 40vh !important;
@@ -454,5 +469,20 @@ $brownMode-Question-color: #C16746;
     }
     .Section4__title{
         font-size: 20px !important;
+    }
+    .Section4__next{
+        top: 230px !important;
+    }
+    .Section4__prev{
+        top: 230px !important;
+    }
+}
+
+@media (max-width: 400.98px){
+    .Section4__next{
+        top: 250px !important;
+    }
+    .Section4__prev{
+        top: 250px !important;
     }
 }
