@@ -48,7 +48,7 @@ const diSanThienNhien = [
     {
         id: 1,
         url: images.dstn1,
-        web: "/quantheditichtrangan"
+        web: "/tacphamdoibatsuvenhieumau"
     },
     {
         id: 2,

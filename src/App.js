@@ -31,7 +31,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/quanthecodohue' element={<QTDTCDH/>}/>
-        <Route path='/quantheditichtrangan' element={<QTDTTA/>}/>
+        <Route path='/tacphamdoibatsuvenhieumau' element={<QTDTTA/>}/>
         <Route path='/tinnguongthomau' element={<TNTM/>}/>
         <Route path='/vanmieuquoctugiam' element={<BTSVM/>}/>
         <Route path='/hoangthanhthanglong' element={<HTTL/>}/>
