@@ -104,7 +104,7 @@ const diSanVatThe = [
     {
         id: 3,
         url: images.dsvt3,
-        web: "/hoangthanhthanglong"
+        web: "/COVATNGOCTRANGTHAIBINHHUUTUONG"
     },
     {
         id: 4,
