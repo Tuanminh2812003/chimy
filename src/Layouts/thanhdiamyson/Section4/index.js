@@ -4,8 +4,6 @@ import { MdNavigateNext, MdNavigateBefore } from "react-icons/md";
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "/image/thanhdiamyson/8(1)(1).jpg",
-        "/image/thanhdiamyson/8(1).jpg",
         "/image/thanhdiamyson/8.jpg",
         "/image/thanhdiamyson/anhtacpham-08.png",
     ];
