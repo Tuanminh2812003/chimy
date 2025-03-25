@@ -105,7 +105,7 @@ body{
     }
     .blueMode{
         color: $BlueMode-Text-color;
-        background-color: $BlueMode-Back-color;
+        background-color: $RedMode-Back-color;
         
         div{
             line-height: 150% !important; /* 27px */
@@ -122,7 +122,7 @@ body{
     }
     .greenMode{
         color: $GreenMode-Text-color;
-        background-color: $GreenMode-Back-color;
+        background-color: $RedMode-Back-color;
         
         div{
             line-height: 150% !important; /* 27px */
@@ -139,7 +139,7 @@ body{
     }
     .brownMode{
         color: $brownMode-Text-color;
-        background-color: $brownMode-Back-color;
+        background-color: $RedMode-Back-color;
         
         div{
             line-height: 150% !important; /* 27px */

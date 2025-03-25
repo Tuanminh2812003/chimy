@@ -15,18 +15,11 @@ function LayoutDefault(){
     return(
         <>
             <div className="greenMode">
-                <SectionMain/>
-                <div className="container infographic">
-                    <img src="/image/vuonquocgia/2.1. web.png" style={{width: "100%", height: "auto"}}/>
-                </div>
-                <Section1/>
-                <Section5/>
-                <Section2/>
+
                 <div className="container">
                     <Section4/>
                 </div>
-                <Section7/>
-                <Footer/>
+
             </div>
         </>
     )
