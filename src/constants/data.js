@@ -53,7 +53,7 @@ const diSanThienNhien = [
     {
         id: 2,
         url: images.dstn2,
-        web: "/vinhhalong"
+        web: "/covatamdiemtinh"
     },
     {
         id: 3,

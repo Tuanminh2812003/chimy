@@ -15,18 +15,11 @@ function LayoutDefault(){
     return(
         <>
             <div className="greenMode">
-                <SectionMain/>
-                <Section1/>
-                <Section5/>
-                <Section5p2/>
-                <Section1p2/>
-                <Section2/>
-                <Section5p3/>
-                <div className="container infographic" style={{backgroundColor:"#D4E0BD"}}>
-                    <img src="/image/vinhhalong/infographic web-02.jpg" style={{width: "100%", height: "auto"}}/>
-                </div>
-                <Section7/>
-                <Footer/>
+
+                <div className="container">
+                     <Section4/>
+                 </div>
+
             </div>
         </>
     )
