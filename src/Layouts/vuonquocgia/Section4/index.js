@@ -32,9 +32,16 @@ function Section4() {
 
     return (
         <div className="Section4">
-            <div className="Section4__title">
+            <div className="Section4__title" style={{margin:"0px" }}>
                 CỔ VẬT BÌNH PHÁP LAM
             </div>
+            <div className="Section4__title" style={{margin:"0px" , fontSize: "32px"}}>
+            A cloisonné 'Taotie' vase
+            </div>
+
+            <div className="Section4__title" style={{fontSize: "24px"}}>
+                 (triều đại Nhà Thanh)
+            </div>    
             <div className="Section4__slider">
                 {slides.map((slide, index) => (
                     <div

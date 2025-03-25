@@ -4,8 +4,8 @@ import { MdNavigateNext, MdNavigateBefore } from "react-icons/md";
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "/image/vinhhalong/1.jpg",
-        "/image/vinhhalong/2.jpg",
+        "/image/disanthanhnhaho/1.jpg",
+
     ];
 
     const handleNextClick = () => {
@@ -31,17 +31,16 @@ function Section4() {
 
     return (
         <div className="Section4">
-            <div className="Section4__title" style={{margin: "0px"}}>
-                CỔ VẬT 
+            <div className="Section4__title" style={{margin:"0px"}}>
+                CỔ VẬT TƯỢNG ĐỒNG THẦN TÀI
             </div>
-            <div className="Section4__title" style={{margin: "0px" }}>
-                ẤM ĐIỀM TĨNH - NGHỆ NHÂN CHÂU DUYỆT
+
+            <div className="Section4__title" style={{margin:"0px" , fontSize: "32px"}}>
+                A gilt - Bronze figure of Dakini
             </div>
-            <div className="Section4__title" style={{margin: "0px" , fontSize: "32px"}}>
-                A zisha teapot
-            </div>
-            <div className="Section4__title" style={{ fontSize: "24px"}}>
-                Artist - Zhou Yue
+
+            <div className="Section4__title" style={{fontSize: "24px"}}>
+                 (Triều đại nhà Thanh - thời vua Càn Long)
             </div>
             <div className="Section4__slider">
                 {slides.map((slide, index) => (
@@ -66,7 +65,7 @@ function Section4() {
                     ></div>
                 ))}
             </div>
-          
+           
             <div className="Section4__next" onClick={handleNextClick}>
                 <MdNavigateNext />
             </div>
