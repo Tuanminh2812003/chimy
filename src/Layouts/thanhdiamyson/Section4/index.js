@@ -59,22 +59,6 @@ function Section4() {
                     ></div>
                 ))}
             </div>
-            <div className="Section4__text">
-                {slides.map((_, index) =>
-                    index === currentSlide ? (
-                    <div key={index} className="Section4__text__inner">
-                        {index === 0 &&
-                        `Thánh địa Mỹ Sơn không chỉ là nơi thờ phụng mà còn là trung tâm thực hiện các lễ tế thần linh, phản ánh sâu sắc tín ngưỡng và văn hóa của người Chăm qua những vũ điệu Chăm nhẹ nhàng, uyển chuyển. Văn hóa của người Chăm được tái hiện lại trong chương trình“Đêm Mỹ Sơn huyền thoại’’ tại Thánh địa Mỹ Sơn`}
-                        {index === 1 &&
-                        `Múa Apsara là một loại hình múa cổ truyền của người Chăm Pa, thường được biểu diễn tại Thánh Địa Mỹ Sơn trong các dịp lễ hội. Điệu múa này tái hiện hình ảnh của những nàng tiên Apsara trong thần thoại Hindu giáo, thể hiện sự tôn vinh dành cho thần linh.`}
-                        {index === 2 &&
-                        `Vũ nữ Chăm thường đội trên đầu cây nến, nước, hoa trái, trầu cau… để dâng mừng. Vật để đội là chiếc thor hala 3 tầng, gọi là cổ bồng trầu, vì vật dâng lễ chủ yếu bằng lá trầu được tạo hình cân đối như một tác phẩm nghệ thuật. Đây chính là biểu tượng của nữ thần Po Bar Gina của người Chăm. `}
-                        {index === 3 &&
-                        `Thánh địa Mỹ Sơn không chỉ là nơi thờ phụng mà còn là trung tâm thực hiện các lễ tế thần linh, phản ánh sâu sắc tín ngưỡng và văn hóa của người Chăm qua những vũ điệu Chăm nhẹ nhàng, uyển chuyển. Văn hóa của người Chăm được tái hiện lại trong chương trình“Đêm Mỹ Sơn huyền thoại’’ tại Thánh địa Mỹ Sơn`}
-                    </div>
-                    ) : null
-                )}
-            </div>
             <div className="Section4__next" onClick={handleNextClick}>
                 <MdNavigateNext />
             </div>
