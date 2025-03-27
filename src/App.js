@@ -43,7 +43,7 @@ function App() {
         <Route path='/catru' element={<CT/>}/>
         <Route path='/quanhobacninh' element={<DCQH/>}/>
         <Route path='/tacphamtroxuanpha' element={<NNCDH/>}/>
-        <Route path='/tacphamlecapsac' element={<KGVHCC/>}/>
+        <Route path='/tacphamlecapsaccuanguoidaotuyen' element={<KGVHCC/>}/>
         <Route path='/banducnoitrencuudinhtaihue' element={<BDN/>}/>
         <Route path='/covatbinhphaplam' element={<VQG/>}/>
         <Route path='/tacphamtrove' element={<TDMS/>}/>

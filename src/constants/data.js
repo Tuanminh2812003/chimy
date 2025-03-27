@@ -66,8 +66,8 @@ const diSanThienNhien = [
     {
         id: 4,
         url: images.dstn3,
-        web: "/tacphamlecapsac",
-        name: "Lễ cấp sắc"
+        web: "/tacphamlecapsaccuanguoidaotuyen",
+        name: "Lễ cấp sắc của người Dao Tuyển"
     },
     {
         id: 5,
