@@ -5,6 +5,7 @@ function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         "/image/hoangthanhthanglong/1.jpg",
+        "/image/hoangthanhthanglong/thi binh huu tuong.png",
 
     ];
 

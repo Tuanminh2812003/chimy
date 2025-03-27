@@ -13,15 +13,11 @@ function LayoutDefault(){
     return(
         <>
             <div className="brownMode">
-                <SectionMain/>
-                <Section1/>
-                <Section1p2/>
+
                 <div className="container">
                     <Section4/>
                 </div>
-                <Section2/>
-                <Section7/>
-                <Footer/>
+
             </div>
         </>
     )

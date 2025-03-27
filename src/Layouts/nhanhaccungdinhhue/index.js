@@ -14,18 +14,9 @@ function LayoutDefault(){
     return(
         <>
             <div className="blueMode">
-                <SectionMain/>
-                <Section5/>
-                <Section1/>
-                <div className="container infographic" style={{backgroundColor:"#F3E7DB"}}>
-                    <img src="/image/nhanhaccungdinhhue/4.1 web(1920 x 3190 px) (1).png" style={{width: "100%", height: "auto"}}/>
-                </div>
                 <div className="container">
                     <Section4/>
                 </div>
-                <Section2/>
-                <Section7/>
-                <Footer/>
             </div>
         </>
     )

@@ -6,7 +6,7 @@ function Section4() {
     const slides = [
         "/image/vuonquocgia/1.jpg",
         "/image/vuonquocgia/2.jpg",
-
+        "/image/vuonquocgia/binhphaplam.png",
     ];
 
     const handleNextClick = () => {

@@ -25,7 +25,7 @@ function Flashcard({ sectionData, title, color, id }) {
                 {(showMore ? sectionData : sectionData.slice(0, initialItems)).map((item) => (
                     <Link to={item.web || "#"} key={item.id} className="flashcard__inner__content__item" style={{backgroundColor: color, textDecoration:"none"}}>
                         {/* <img alt={`Image ${item.id}`} src={item.url} /> */}
-                        <div style={{color: "white", textAlign: "center"}}>
+                        <div style={{color: "white", textAlign: "center" , padding: "8px"}}>
                             {item.name}
                         </div>
                     </Link>

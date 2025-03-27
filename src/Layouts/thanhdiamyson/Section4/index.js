@@ -6,6 +6,7 @@ function Section4() {
     const slides = [
         "/image/thanhdiamyson/anhtacpham-08.png",
         "/image/thanhdiamyson/8.jpg",
+        "/image/thanhdiamyson/1-min.jpg",
   
     ];
 

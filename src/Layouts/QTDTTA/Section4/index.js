@@ -5,6 +5,7 @@ function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         "/image/QTDTTA/1.jpg",
+        "/image/QTDTTA/doi bat su.png",
 
     ];
 

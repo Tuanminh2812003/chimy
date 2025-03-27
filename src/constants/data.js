@@ -49,37 +49,37 @@ const diSanThienNhien = [
         id: 1,
         url: images.dstn1,
         web: "/tacphamtrove",
-        name: "Tác phẩm Trở Về"
+        name: "Trở Về"
     },
     {
         id: 2,
         url: images.dstn2,
-        web: "/",
-        name: ""
+        web: "/tacphamtroxuanpha",
+        name: "Trò Xuân Phả"
     },
     {
         id: 3,
         url: images.dstn3,
-        web: "/",
-        name: ""
+        web: "/tacphamnhungnguoithuanthu",
+        name: "Những người thuần thú"
     },
     {
         id: 4,
         url: images.dstn3,
-        web: "/",
-        name: ""
+        web: "/tacphamlecapsac",
+        name: "Lễ cấp sắc"
     },
     {
         id: 5,
         url: images.dstn3,
-        web: "/",
-        name: ""
+        web: "/tacphamduabobaynui",
+        name: "Đua bò Bảy Núi"
     },
     {
         id: 6,
         url: images.dstn3,
-        web: "/",
-        name: ""
+        web: "/tacphammuarong",
+        name: "Múa Rồng"
     },
 ]
 
@@ -116,37 +116,37 @@ const diSanVatThe = [
         id: 1,
         url: images.dsvt1,
         web: "/covatbinhphaplam",
-        name: "Cổ vật Bình Pháp Lam"
+        name: "Bình Pháp Lam"
     },
     {
         id: 2,
         url: images.dsvt2,
         web: "/COVATNGOCTRANGTHAIBINHHUUTUONG",
-        name: ""
+        name: "Ngọc trắng Thái Bình Hữu Tượng"
     },
     {
         id: 3,
         url: images.dsvt3,
         web: "/COVATTUONGDONGTHANTAI",
-        name: ""
+        name: "Tượng đồng Thần tài"
     },
     {
         id: 4,
         url: images.dsvt4,
         web: "/covatamdiemtinh",
-        name: ""
+        name: "Ấm Điềm Tĩnh"
     },
     {
         id: 5,
         url: images.dsvt5,
         web: "/tacphamdoibatsuvenhieumau",
-        name: ""
+        name: "Đôi bát sứ vẽ nhiều màu"
     },
     {
         id: 6,
         url: images.dsvt5,
-        web: "/",
-        name: ""
+        web: "/tuyetsan",
+        name: "Tuyết san"
     },
 ]
 

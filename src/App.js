@@ -35,22 +35,22 @@ function App() {
         <Route path='/tinnguongthomau' element={<TNTM/>}/>
         <Route path='/vanmieuquoctugiam' element={<BTSVM/>}/>
         <Route path='/COVATNGOCTRANGTHAIBINHHUUTUONG' element={<HTTL/>}/>
-        <Route path='/hoanghoasutrinhdo' element={<HHSTD/>}/>
+        <Route path='/tacphamduabobaynui' element={<HHSTD/>}/>
         <Route path='/COVATTUONGDONGTHANTAI' element={<DSTNH/>}/>
         <Route path='/covatamdiemtinh' element={<VHL/>}/>
         <Route path='/dothicohoian' element={<DTCHA/>}/>
-        <Route path='/mocbantrieunguyen' element={<MBTN/>}/>
+        <Route path='/tacphamnhungnguoithuanthu' element={<MBTN/>}/>
         <Route path='/catru' element={<CT/>}/>
         <Route path='/quanhobacninh' element={<DCQH/>}/>
-        <Route path='/nhanhaccungdinhhue' element={<NNCDH/>}/>
-        <Route path='/congchiengtaynguyen' element={<KGVHCC/>}/>
+        <Route path='/tacphamtroxuanpha' element={<NNCDH/>}/>
+        <Route path='/tacphamlecapsac' element={<KGVHCC/>}/>
         <Route path='/banducnoitrencuudinhtaihue' element={<BDN/>}/>
         <Route path='/covatbinhphaplam' element={<VQG/>}/>
         <Route path='/tacphamtrove' element={<TDMS/>}/>
         <Route path='/hatxoan' element={<HX/>}/>
-        <Route path='/tinnguongthocunghungvuong' element={<TNTCHV/>}/>
+        <Route path='/tuyetsan' element={<TNTCHV/>}/>
         <Route path='/chaubantrieunguyen' element={<CBTN/>}/>
-        <Route path='/doncataitunambo' element={<DCTT/>}/>
+        <Route path='/tacphammuarong' element={<DCTT/>}/>
       </Routes>
     </>
   );

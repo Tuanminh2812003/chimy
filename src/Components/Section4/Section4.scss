@@ -40,6 +40,10 @@ $brownMode-Question-color: #C16746;
         overflow: hidden;
         padding: 60px 0px;
         width: 100%;
+
+        &__inner{
+            width: 100%;
+        }
     }
     .Section4__title{
         color: $RedMode-Title-color;
@@ -144,6 +148,10 @@ $brownMode-Question-color: #C16746;
         overflow: hidden;
         padding: 60px 0px;
         width: 100%;
+
+        &__inner{
+            width: 100%;
+        }
     }
     .Section4__title{
         color: $GreenMode-Title-color;
@@ -248,6 +256,9 @@ $brownMode-Question-color: #C16746;
         overflow: hidden;
         padding: 60px 0px;
         width: 100%;
+        &__inner{
+            width: 100%;
+        }
     }
     .Section4__title{
         color: $BlueMode-Title-color;
@@ -352,6 +363,9 @@ $brownMode-Question-color: #C16746;
         overflow: hidden;
         padding: 60px 0px;
         width: 100%;
+        &__inner{
+            width: 100%;
+        }
     }
     .Section4__title{
         color: $brownMode-Title-color;

@@ -14,14 +14,9 @@ function LayoutDefault(){
     return(
         <>
             <div className="brownMode">
-                <SectionMain/>
-                <Section1/>
-                <Section1p2/>
-                <Section5/>
-                <Section2/>
-                <Section5p2/>
-                <Section7/>
-                <Footer/>
+                <div className="container">
+                    <Section4/>
+                </div>
             </div>
         </>
     )

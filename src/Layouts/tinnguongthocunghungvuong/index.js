@@ -15,14 +15,9 @@ function TNTM(){
     return(
         <>
             <div className="blueMode">
-                <SectionMain/>
-                <Section5/>
-                <Section5p2/>
-                <Section1/>
-                <Section1p5/>
-                <Section5p3/>
-                <Section7/>
-                <Footer/>
+                <div className="container">
+                    <Section4/>
+                </div>
             </div>
         </>
     )

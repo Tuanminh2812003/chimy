@@ -10,13 +10,11 @@ import Footer from "./Footer";
 
 function LayoutDefault(){
     return(
-        <>
             <div className="redMode">
                 <div className="container" >
                     <Section4/>
                 </div>
             </div>
-        </>
     )
 }
 

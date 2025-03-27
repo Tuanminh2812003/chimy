@@ -4,12 +4,9 @@ import { MdNavigateNext, MdNavigateBefore } from "react-icons/md";
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "/TNTM/Section4-1.jpg",
-        "/TNTM/Section4-2.jpg",
-        "/TNTM/Section4-3.png",
-        "/TNTM/Section4-4.jpg",
-        "/TNTM/Section4-5.jpg",
-        "/TNTM/Section4-6.jpg",
+        "/image/tinnguongthocunghungvuong/TUYẾT SAN1.png",
+        "/image/tinnguongthocunghungvuong/TUYẾT SAN2.png",
+
 
     ];
 
@@ -39,7 +36,7 @@ function Section4() {
             <div className="container">
                 <div className="Section4__inner">
                 <div className="Section4__title">
-                Những đặc điểm chung trong lối kiến trúc Đại Nội
+                TUYẾT SAN
             </div>
             <div className="Section4__slider">
                 {slides.map((slide, index) => (
@@ -65,7 +62,7 @@ function Section4() {
                 ))}
             </div>
             <div className="Section4__text">
-                {slides.map((_, index) =>
+                {/* {slides.map((_, index) =>
                     index === currentSlide ? (
                     <div key={index} className="Section4__text__inner">
                         {index === 0 &&
@@ -82,7 +79,7 @@ function Section4() {
                         "Tín ngưỡng thờ Mẫu Tam phủ được tôn vinh và thực hành tại nhiều địa phương trên cả nước, trong đó tỉnh Nam Định nổi bật với các trung tâm thờ cúng tiêu biểu như Phủ Dầy (huyện Vụ Bản) và Phủ Nấp (huyện Ý Yên). Ngoài ra, Thánh Mẫu Liễu Hạnh cũng được phụng thờ tại nhiều địa điểm linh thiêng khác gắn liền với những truyền thuyết về Bà, chẳng hạn như Phủ Tây Hồ (Hà Nội), đền Sòng (Thanh Hóa), đền Bắc Lệ (Lạng Sơn), v.v. Tín ngưỡng này không chỉ phổ biến ở các vùng miền như Huế, Thành phố Hồ Chí Minh mà còn lan tỏa đến cộng đồng người Việt ở nước ngoài, điển hình tại Mỹ, Pháp, Ba Lan... Việc tổ chức các lễ hội cũng thu hút nhiều khách du lịch đến tham quan và tìm hiểu thêm về di sản tín ngưỡng thờ mẫu."}
                     </div>
                     ) : null
-                )}
+                )} */}
             </div>
             <div className="Section4__next" onClick={handleNextClick}>
                 <MdNavigateNext />
