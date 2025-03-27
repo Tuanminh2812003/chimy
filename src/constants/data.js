@@ -48,37 +48,37 @@ const diSanThienNhien = [
     {
         id: 1,
         url: images.dstn1,
-        web: "/tacphamtrove",
+        web: "/trove",
         name: "Trở Về"
     },
     {
         id: 2,
         url: images.dstn2,
-        web: "/tacphamtroxuanpha",
+        web: "/troxuanpha",
         name: "Trò Xuân Phả"
     },
     {
         id: 3,
         url: images.dstn3,
-        web: "/tacphamnhungnguoithuanthu",
+        web: "/nhungnguoithuanthu",
         name: "Những người thuần thú"
     },
     {
         id: 4,
         url: images.dstn3,
-        web: "/tacphamlecapsaccuanguoidaotuyen",
+        web: "/lecapsaccuanguoidaotuyen",
         name: "Lễ cấp sắc của người Dao Tuyển"
     },
     {
         id: 5,
         url: images.dstn3,
-        web: "/tacphamduabobaynui",
+        web: "/duabobaynui",
         name: "Đua bò Bảy Núi"
     },
     {
         id: 6,
         url: images.dstn3,
-        web: "/tacphammuarong",
+        web: "/muarong",
         name: "Múa Rồng"
     },
 ]
@@ -115,38 +115,38 @@ const diSanVatThe = [
     {
         id: 1,
         url: images.dsvt1,
-        web: "/covatbinhphaplam",
+        web: "/binhphaplam",
         name: "Bình Pháp Lam"
     },
     {
         id: 2,
         url: images.dsvt2,
-        web: "/COVATNGOCTRANGTHAIBINHHUUTUONG",
+        web: "/ngoctrangthaibinhhuutuong",
         name: "Ngọc trắng Thái Bình Hữu Tượng"
     },
     {
         id: 3,
         url: images.dsvt3,
-        web: "/COVATTUONGDONGTHANTAI",
+        web: "/tuongdongthantai",
         name: "Tượng đồng Thần tài"
     },
     {
         id: 4,
         url: images.dsvt4,
-        web: "/covatamdiemtinh",
+        web: "/amdiemtinh",
         name: "Ấm Điềm Tĩnh"
     },
     {
         id: 5,
         url: images.dsvt5,
-        web: "/tacphamdoibatsuvenhieumau",
+        web: "/doibatsuvenhieumau",
         name: "Đôi bát sứ vẽ nhiều màu"
     },
     {
         id: 6,
         url: images.dsvt5,
-        web: "/tuyetsan",
-        name: "Tuyết san"
+        web: "/santuyet",
+        name: "San tuyết"
     },
 ]
 

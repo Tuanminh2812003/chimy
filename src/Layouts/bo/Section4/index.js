@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { MdNavigateNext, MdNavigateBefore } from "react-icons/md";
-
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
@@ -32,8 +31,10 @@ function Section4() {
 
     return (
         <div className="Section4">
-            <div className="Section4__title">
-                TÁC PHẨM SAN TUYẾT
+            <div className="container">
+                <div className="Section4__inner">
+                <div className="Section4__title">
+                Những đặc điểm chung trong lối kiến trúc Đại Nội
             </div>
             <div className="Section4__slider">
                 {slides.map((slide, index) => (
@@ -58,15 +59,18 @@ function Section4() {
                     ></div>
                 ))}
             </div>
-           
             <div className="Section4__next" onClick={handleNextClick}>
                 <MdNavigateNext />
             </div>
             <div className="Section4__prev" onClick={handlePrevClick}>
                 <MdNavigateBefore />
             </div>
+                </div>
+            </div>
+            
         </div>
     );
 }
 
 export default Section4;
+

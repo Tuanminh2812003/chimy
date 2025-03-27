@@ -16,7 +16,7 @@ function SectionMain(){
     return(
         <>
             <div className="SectionMain" style={{
-                backgroundImage: "url('/image/doncataitu/1.png')",
+                backgroundImage: "url('/image/tinnguongthocunghungvuong/1.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center 0",
             }}>
@@ -24,8 +24,11 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMain__inner">
                         <div className="SectionMain__inner__title">
-                            ĐỜN CA TÀI TỬ NAM BỘ
+                            TÍN NGƯỠNG THỜ CÚNG HÙNG VƯƠNG
                         </div>
+                        {/* <div className="SectionMain__inner__disc">
+                            Huế là nơi lưu giữ hồn cốt lịch sử và văn hóa của dân tộc. Hãy một lần đến Huế để cảm nhận vẻ đẹp thanh bình và nét quyến rũ độc đáo của cố đô!
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -36,20 +39,20 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMainP2__inner">
                         <div className="SectionMainP2__inner__title">
-                            Dự án Heritage Flash XR Chào mừng quý khách đến trải nghiệm về không gian văn hóa Đờn ca tài tử
+                        Dự án Heritage Flash XR Chào mừng quý khách đến trải nghiệm về di sản tín ngưỡng thờ cúng Hùng Vường:
                         </div>
                         <div className="SectionMainP2__inner__disc">
-                            Tham gia trải nghiệm về Đờn ca tài tử quý khách sẽ:
+                        Tham gia trải nghiệm về tín ngưỡng thờ cúng Hùng Vường quý khách sẽ: 
                         </div>
                         <ul>
                             <li>
-                                Xác định được vị trí và giới thiệu được khái quát về di sản không gian văn hóa Đờn ca tài tử
+                            Xác định được nguồn gốc, hình thức và những thông tin cơ bản.
                             </li>
                             <li>
-                                Biết cách sưu tầm và sử dụng tư liệu lịch sử để tìm hiểu về không gian văn hóa Đờn ca tài tử
+                            Tự hào về các giá trị của di sản trong tiến trình phát triển lịch sử dân tộc.
                             </li>
                             <li>
-                                Nhận thức được giá trị của di sản, có ý thức bảo tồn đối với công cuộc bảo tồn và phát huy giá trị di sản văn hóa.
+                            Góp phần quảng bá hình ảnh đất nước, văn hóa, con người Việt Nam đến cộng đồng nói riêng và thế giới nói chung. 
                             </li>
                         </ul>
                     </div>

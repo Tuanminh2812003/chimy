@@ -4,7 +4,6 @@ import { FaYoutube } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { useState } from "react";
-
 function Footer(){
     const [showSource, setShowSource] = useState(false);
     
@@ -86,28 +85,64 @@ function Footer(){
                             {showSource && (
                                 <>
                                     <div className="Footer__copy__inner__text">
-                                1. Bộ Văn hóa, Thể thao và Du lịch (bvhttdl.gov.vn)
+                                1. Báo Nhân dân (nhandan.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                2. Báo Nhân Dân (nhandan.vn)
+                                2. Báo Tài nguyên Môi trường (baotainguyenmoitruong.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                3. Đại sứ quán Việt Nam tại Indonesia (vnembassy-jakarta.mofa.gov.vn)
+                                3. VietnamPlus (vietnamplus.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                4. Báo An Giang (baoangiang.com.vn)
+                                4. VOV (vov.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                5. Sở Văn hóa Tây Ninh (sovhttdl.tayninh.gov.vn)
+                                5. Công lý (congly.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                6. Bảo tàng TP. Cần Thơ (baotangtpcantho.cantho.gov.vn)
+                                6. Thông tin Đối ngoại (ttdn.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                7. Báo Thanh Niên (thanhnien.vn)
+                                7. Hà Nội mới (hanoimoi.vn)
                             </div>
                             <div className="Footer__copy__inner__text">
-                                8. Trang Chính trị Bình Thuận (truongchinhtri.binhthuan.dcs.vn)
+                                8. Bộ Thông tin và Truyền thông (mic.gov.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                9. Vnews (vnews.gov.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                10. Hội Chữ thập đỏ Phú Thọ (chuthapdophutho.org.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                11. Báo Chính phủ (baochinhphu.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                12. Quân đội Nhân dân (qdnd.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                13. Tổng cục Du lịch (vietnamtourism.gov.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                14. Báo Yên Bái (baoyenbai.com.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                15. Thông tấn xã Việt Nam (vnanet.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                16. Sở Văn hóa, Thể thao và Du lịch Phú Thọ (svhttdl.phutho.gov.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                17. Báo Phú Thọ (baophutho.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                18. Báo Văn hóa (baovanhoa.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                19. Xây dựng Đảng (xaydungdang.org.vn)
+                            </div>
+                            <div className="Footer__copy__inner__text">
+                                20. Bộ Lao động - Thương binh và Xã hội (molisa.gov.vn)
                             </div>
                                 </>
                             )}

@@ -31,26 +31,26 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/quanthecodohue' element={<QTDTCDH/>}/>
-        <Route path='/tacphamdoibatsuvenhieumau' element={<QTDTTA/>}/>
+        <Route path='/doibatsuvenhieumau' element={<QTDTTA/>}/>
         <Route path='/tinnguongthomau' element={<TNTM/>}/>
         <Route path='/vanmieuquoctugiam' element={<BTSVM/>}/>
-        <Route path='/COVATNGOCTRANGTHAIBINHHUUTUONG' element={<HTTL/>}/>
-        <Route path='/tacphamduabobaynui' element={<HHSTD/>}/>
-        <Route path='/COVATTUONGDONGTHANTAI' element={<DSTNH/>}/>
-        <Route path='/covatamdiemtinh' element={<VHL/>}/>
+        <Route path='/ngoctrangthaibinhhuutuong' element={<HTTL/>}/>
+        <Route path='/duabobaynui' element={<HHSTD/>}/>
+        <Route path='/tuongdongthantai' element={<DSTNH/>}/>
+        <Route path='/amdiemtinh' element={<VHL/>}/>
         <Route path='/dothicohoian' element={<DTCHA/>}/>
-        <Route path='/tacphamnhungnguoithuanthu' element={<MBTN/>}/>
+        <Route path='/nhungnguoithuanthu' element={<MBTN/>}/>
         <Route path='/catru' element={<CT/>}/>
         <Route path='/quanhobacninh' element={<DCQH/>}/>
-        <Route path='/tacphamtroxuanpha' element={<NNCDH/>}/>
-        <Route path='/tacphamlecapsaccuanguoidaotuyen' element={<KGVHCC/>}/>
+        <Route path='/troxuanpha' element={<NNCDH/>}/>
+        <Route path='/lecapsaccuanguoidaotuyen' element={<KGVHCC/>}/>
         <Route path='/banducnoitrencuudinhtaihue' element={<BDN/>}/>
-        <Route path='/covatbinhphaplam' element={<VQG/>}/>
-        <Route path='/tacphamtrove' element={<TDMS/>}/>
+        <Route path='/binhphaplam' element={<VQG/>}/>
+        <Route path='/trove' element={<TDMS/>}/>
         <Route path='/hatxoan' element={<HX/>}/>
-        <Route path='/tuyetsan' element={<TNTCHV/>}/>
+        <Route path='/santuyet' element={<TNTCHV/>}/>
         <Route path='/chaubantrieunguyen' element={<CBTN/>}/>
-        <Route path='/tacphammuarong' element={<DCTT/>}/>
+        <Route path='/muarong' element={<DCTT/>}/>
       </Routes>
     </>
   );

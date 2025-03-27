@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 function Section1p5() {
     const [questions, setQuestions] = useState([true, true, true, true]);
     const [popupVisible, setPopupVisible] = useState(false);
@@ -8,29 +7,29 @@ function Section1p5() {
 
     const questionList = [
         {
-        question: `Đờn ca tài tử Nam Bộ được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại vào năm nào?`,
-        options: ["A. 2010", "B. 2012", "C. 2013", "D. 2015"],
-        correct: "C. 2013",
+        question: `UNESCO chính thức công nhận "Tín ngưỡng thờ cúng Hùng Vương" là Di sản văn hóa phi vật thể đại diện của nhân loại vào năm nào?`,
+        options: ["A. 2010", "B. 2011", "C. 2012", "D. 2013"],
+        correct: "C. 2012",
         },
         {
-        question: `Nhạc cụ nào sau đây không thuộc bộ ngũ tuyệt của Đờn ca tài tử?`,
-        options: ["A. Đàn tranh", "B. Đàn tỳ bà", "C. Đàn nguyệt", "D. Đàn bầu"],
-        correct: "D. Đàn bầu",
+        question: `"Tín ngưỡng thờ cúng Hùng Vương" có phải là một tôn giáo không?`,
+        options: ["A. Đúng, đây là một tôn giáo lớn ở Việt Nam.", "B. Không, đây là một hình thức tín ngưỡng dân gian.", "C. Đúng, nhưng chỉ phổ biến ở một số vùng nhất định.", "D. Không, đây chỉ là một phong tục tập quán."],
+        correct: "B. Không, đây là một hình thức tín ngưỡng dân gian.",
         },
         {
-        question: `Bài bản tổ của Đờn ca tài tử gồm bao nhiêu bài?`,
+        question: "Theo nội dung được cung cấp, trên địa bàn tỉnh Phú Thọ có bao nhiêu di tích thờ Hùng Vương và các nhân vật liên quan?",
+        options: ["A. Khoảng 1.417", "B. 326", "C. Ít hơn 100", "D. Nhiều hơn 2.000"],
+        correct: "B. 326",
+        },
+        {
+        question: "Tín ngưỡng thờ cúng Hùng Vương thể hiện điều gì trong đời sống tinh thần của người Việt?",
         options: [
-            "A. 10",
-            "B. 15",
-            "C. 20",
-            "D. 25",
+            "A. Niềm tin vào sự bảo hộ của thần linh.",
+            "B. Sự tôn kính các vị vua đã có công dựng nước.",
+            "C. Lòng biết ơn tổ tiên và tinh thần đoàn kết dân tộc.",
+            "D. Tất cả các phương án trên.",
         ],
-        correct: "C. 20",
-        },
-        {
-        question: `Không gian diễn xướng của Đờn ca tài tử thường ở đâu?`,
-        options: ["A. Sân khấu lớn", "B. Đình, chùa", "C. Trong nhà, ngoài sân, trên thuyền", "D. Nhà hát"],
-        correct: "C. Trong nhà, ngoài sân, trên thuyền",
+        correct: "D. Tất cả các phương án trên.",
         },
     ];
 
@@ -58,18 +57,18 @@ function Section1p5() {
 
     return (
         <>
-        <div className="Section2" style={{backgroundColor: "#FFFFFF"}}>
+        <div className="Section2">
             <div className="container">
             <div className="Section2__inner">
-                <div className="Section2__inner__title">Đố vui có thưởng</div>
+                <div className="Section2__inner__title">GAME KHÁM PHÁ DI SẢN</div>
                 <div className="Section2__inner__disc">
-                    Người chơi trả lời các câu hỏi mà ô chữ đặt ra nhằm tìm ra bức hình ẩn sau các ô chữ.
+                    Người chơi trả lời các câu hỏi mà ô chữ đặt ra nhằm tìm ra bức hình ẩn sau các ô chữ. 
                 </div>
                 <div className="Section2__inner__game">
                 <div
                     className="Section2__inner__game__image"
                     style={{
-                    backgroundImage: "url('/image/doncataitu/7.jpg')",
+                    backgroundImage: "url('/image/tinnguongthocunghungvuong/5.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     filter: questions.some((q) => q) ? "blur(10px)" : "none",

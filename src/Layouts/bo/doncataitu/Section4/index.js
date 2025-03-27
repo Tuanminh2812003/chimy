@@ -4,8 +4,9 @@ import { MdNavigateNext, MdNavigateBefore } from "react-icons/md";
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "/image/tinnguongthocunghungvuong/TUYẾT SAN1.png",
-        "/image/tinnguongthocunghungvuong/TUYẾT SAN2.png",
+        "/image/doncataitu/anhtacpham-06-min.png",
+        "/image/doncataitu/6(1).jpg",
+        "/image/doncataitu/Tác phẩm 6-min.png",
 
     ];
 
@@ -33,7 +34,7 @@ function Section4() {
     return (
         <div className="Section4">
             <div className="Section4__title">
-                TÁC PHẨM SAN TUYẾT
+                TÁC PHẨM MÚA RỒNG
             </div>
             <div className="Section4__slider">
                 {slides.map((slide, index) => (
